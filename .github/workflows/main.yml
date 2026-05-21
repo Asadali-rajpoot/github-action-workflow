@@ -1,13 +1,14 @@
-name : asad ali
+name: Asad Ali
 
 on:
-  push: 
-  branches: [ main]
+  push:
+    branches:
+      - main
 
-  jobs:
-   demo: 
-      runs-on: ubuntu latest
+jobs:
+  demo:
+    runs-on: ubuntu-latest
 
-      steps:
-        - run: greeting
-          run: echo "hello asad"
+    steps:
+      - name: Greeting
+        run: echo "Hello Asad"
