@@ -10,4 +10,4 @@ on:
 
       steps:
         - run: greeting
-        run: echo "hello asad"
+          run: echo "hello asad"
